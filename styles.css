@@ -16,7 +16,7 @@ body {
     margin: 10px 0 0 10px;
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    width: 50%;
 }
 
 a {
@@ -43,12 +43,17 @@ a {
     }
 
     .menu {
-        width: 30%;
+        width: 50%;
     }
 
     .menu,
     .lead {
         font-size: small;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -144,9 +149,10 @@ a {
 .about-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -165,11 +171,12 @@ a {
     padding-right: 20px;
 }
 
-.port {
-    color: black;
-    background-color: rgb(255, 255, 255);
-}
 
-.folio {
-    background-color: #333;
+.about-me-container {
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
