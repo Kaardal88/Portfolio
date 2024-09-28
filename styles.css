@@ -102,6 +102,10 @@ a {
         gap: 10px;
     }
 
+    .menu-logo {
+        width: 20%;
+    }
+
     .menu,
     .lead {
         font-size: small;
@@ -368,5 +372,36 @@ footer {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.projects,
+.about-me-text {
+    border-bottom: 1px solid white;
+}
+
+.up-button {
+    display: flex;
+    justify-content: right;
+    margin-right: 24.5%;
+    margin-top: 3%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.up-button:hover {
+    animation: bounce 0.6s ease-in-out;
+}
+
+/* Keyframes for bouncy effect */
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+        /* Original størrelse */
+    }
+
+    30% {
+        transform: scale(1.01);
+        /* Større sprett */
+    }
 
 }
