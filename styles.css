@@ -85,7 +85,7 @@ a {
     }
 
     .card {
-        width: 80% !important;
+        width: 90% !important;
 
     }
 
@@ -98,11 +98,11 @@ a {
         align-content: center;
         justify-content: center;
         display: flex;
-        gap: 10px;
+        gap: 30px;
     }
 
     .menu-logo {
-        width: 20%;
+        width: 30%;
     }
 
     .menu,
@@ -140,8 +140,7 @@ a {
     }
 
     .linkedin-logo {
-        width: 30% !important;
-        box-shadow: rgb(51, 51, 51) 2px 2px 5px;
+        display: none;
     }
 
     .footer-section {
