@@ -2,6 +2,10 @@
 
 Welcome to my portfolio webpage. Here I want to showcase my projects, starting off with my three webpages that I have built as a student at Noroff. 
 
+I am a Frontend Developer student at Noroff, and this is the result of year one. 
+
+If you would like to have a look at my portfolio, click [here](https://kaardalportfolio.netlify.app/)!
+
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/03e7a914-6910-4047-b113-c2db1ca630c1)
 
