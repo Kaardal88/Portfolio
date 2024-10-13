@@ -1,25 +1,30 @@
-# Your project title
+# Devbula
+This is my first year exam. 
+I have made a blog for learning and teaching about the actual thing I'm studying. 
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+I used wordpress REST API setting up the blogposts like a database. Then I used javascript making the api call so I can display the posts on my own website. 
 
-A simple overview of the use/purpose of the project.
+Being a rather creative human being, I spent some time making the design look good. Using animation, keyframes, color palettes, illustration and fonts to put it all togheter. 
 
-## Description
+## Screenshot
+![image](https://github.com/user-attachments/assets/5842621d-11c4-4c01-8bb4-7ead5e661e6b)
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+- HTML
+- CSS
+- javaScript
+- Wordpress REST API
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+## Features
+
+- Responsive design
+- The newest blog section
+- Blogpost carousel
+- Blogpost specific
+- Error handling
+- Contact form with specific error handling and submit confirm
 
 ## Getting Started
 
@@ -30,7 +35,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:NoroffFEU/project-exam-1.git
 ```
 
 2. Install the dependencies:
@@ -41,19 +46,15 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
 To run the app, run the following commands:
 
 ```bash
 npm run start
 ```
 
-
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+https://linkedin.com/in/kim-andré-kårdal-631a99276
 
-[My Twitter page](www.twitter.com)
 
-[My LinkedIn page](www.linkedin.com)
+
