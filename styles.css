@@ -28,6 +28,7 @@ body {
     background-color: #4682B4;
     opacity: 1;
     box-shadow: 0 1px 50px -15px #333;
+
 }
 
 .menu-hidden {
@@ -38,12 +39,12 @@ body {
 .lead {
     /*   position: relative; */
     text-decoration: none;
-    color: white;
+
     padding: 5px 0;
     font-size: 1.2rem;
 }
 
-.menu .lead::after {
+.menu .navtext::after {
     content: '';
     position: absolute;
     width: 0;
@@ -52,6 +53,7 @@ body {
     bottom: 0;
     left: 0;
     transition: width 0.5s ease-in-out;
+
 }
 
 .menu a:hover::after {
@@ -69,6 +71,7 @@ body {
     text-align: center;
     font-size: 1.2rem;
     padding: 10px;
+
 }
 
 a {
@@ -76,6 +79,7 @@ a {
     padding: 0;
     margin: 0;
     display: inline-block;
+    color: white;
 
 }
 
@@ -103,19 +107,24 @@ a {
 
     .menu {
         width: 100%;
-        align-content: center;
-        justify-content: center;
+        justify-content: space-evenly;
+        /* Fordeler plass jevnt mellom elementene */
         display: flex;
-        gap: 30px;
+        align-items: center;
+        /* Vertikal sentrering */
+        flex-wrap: nowrap;
+    }
+
+    .navtext {
+        font-size: small;
+        color: white;
+        white-space: nowrap;
     }
 
     .menu-logo {
-        width: 30%;
-    }
-
-    .menu,
-    .lead {
-        font-size: small;
+        max-width: 150px;
+        /* Begrens logoens størrelse */
+        height: auto;
     }
 
     .about-container {
@@ -164,10 +173,7 @@ a {
     }
 
     .footer-logo {
-        display: flex;
-        width: 100%;
-
-
+        width: 20% !important;
     }
 
     .links a {
@@ -181,6 +187,16 @@ a {
 
     #copyright {
         font-size: small !important;
+    }
+
+    .shorts {
+        max-width: 100% !important;
+
+    }
+
+    .card img {
+        width: 100% !important;
+
     }
 }
 
@@ -272,9 +288,6 @@ a {
     font-size: inherit;
 }
 
-.name {
-    text-decoration: underline solid 1px rgb(153, 18, 18);
-}
 
 .about-container {
     display: flex;
@@ -312,6 +325,7 @@ a {
 
 .history-about {
     text-align: left;
+    font-size: large;
 }
 
 .card-text {
@@ -366,7 +380,7 @@ a {
 }
 
 .footer-logo {
-    width: 5%;
+    width: 8%;
     margin-bottom: 10px;
 }
 
@@ -427,4 +441,10 @@ a {
     max-width: 80%;
     height: auto;
     border-radius: 8px;
+}
+
+.mail-me {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
 }
